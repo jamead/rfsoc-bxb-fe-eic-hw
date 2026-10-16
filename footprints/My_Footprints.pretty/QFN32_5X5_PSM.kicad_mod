@@ -2116,4 +2116,15 @@
 		(uuid "b603664c-bb2c-4db5-ba89-f56f9b3c5452")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/pSemi_PE43712B-Z.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

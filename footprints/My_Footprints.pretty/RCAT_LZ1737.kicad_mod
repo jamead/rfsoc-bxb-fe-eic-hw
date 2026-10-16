@@ -190,4 +190,15 @@
 		(uuid "118a2f98-2cd4-48f3-804b-b70745b7f6df")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/MiniCircuits_RCAT-01+.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,0 +1,145 @@
+(footprint "Coilcraft_0402DF-531XJRW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Coilcraft 0402DF-531XJRW, 530 nH +/-5% ferrite core RF inductor, 0402; datasheet land pattern 0.36x0.66mm pads, 0.635mm gap")
+	(tags "Coilcraft 0402DF 530nH RF choke SMD 0402 1005")
+	(property "Reference" "REF**"
+		(at 0 -1.12 0)
+		(layer "F.SilkS")
+		(uuid "7bd350a1-b3a1-5946-a0d1-7757323c240f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "530nH"
+		(at 0 1.13 0)
+		(layer "F.Fab")
+		(uuid "2b3d61b6-d93f-5335-9152-2cbc732b9a44")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/219fc1af-586d-41df-ae58-9f5f4780d403/0402df_b.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cb2dd72-dbf5-57ea-8661-93364c47ac6d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Description" "530 nH +/-5% ferrite core chip inductor; SRF 1 GHz typ; DCR 0.715 ohm max; Irms 330 mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35cd76c0-3321-5323-9f16-9cf6d6bffa21")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer" "Coilcraft"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afd79e7a-ac56-5ae5-9c92-d818f311fb2f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "0402DF-531XJRW"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2d39aec-07e2-54ee-9ee8-f2474f1401c8")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.8275 -0.48)
+		(end 0.8275 0.48)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d4f5f949-de8f-559c-a034-db6bd485653a")
+	)
+	(fp_line
+		(start -0.355 -0.33)
+		(end -0.355 0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d2f85f4f-2971-5970-9c51-2a666bbe5ab4")
+	)
+	(fp_line
+		(start 0.355 -0.33)
+		(end 0.355 0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "261bce8e-9fba-5980-a6d0-e997642d7913")
+	)
+	(fp_rect
+		(start -0.555 -0.33)
+		(end 0.555 0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "25b8f5a5-b76d-5c3c-9f4d-7beb7f544853")
+	)
+	(pad "1" smd rect
+		(at -0.4975 0)
+		(size 0.36 0.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "67a2e41e-97a0-5cd3-b09d-73071c533786")
+	)
+	(pad "2" smd rect
+		(at 0.4975 0)
+		(size 0.36 0.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c56ff76-ea5c-5ca2-b8b6-554e844bd7ed")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/0402DC.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 180)
+		)
+	)
+)

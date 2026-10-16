@@ -1,0 +1,145 @@
+(footprint "Coilcraft_0402DC-68NXGRW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Coilcraft 0402DC-68NXGRW 68nH 2% 0402 wirewound RF inductor, Coilcraft recommended land pattern F=0.36 G=0.61 H=0.66 mm")
+	(tags "coilcraft 0402 1005 RF inductor 68nH 0402DC")
+	(property "Reference" "L**"
+		(at 0 -1.15 0)
+		(layer "F.SilkS")
+		(uuid "9464a393-a1e3-486c-8e57-dd4c6f25d23c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "68nH"
+		(at 0 1.15 0)
+		(layer "F.Fab")
+		(uuid "ab86c94e-d505-4be4-8d00-d66144216ceb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/en-us/files/datasheet/0402DC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2585ae6-067e-4eff-9672-724616d51e4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "68 nH 2% 0402 wirewound RF inductor; 400 mA; 2.8 GHz SRF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c60cac22-4d1a-4d04-af5b-4f1742b9bbd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Coilcraft"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7913e00c-cd47-4e89-add6-a77ec4a57913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "0402DC-68NXGRW"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "139ad481-070c-4022-9ec4-400bb5b68750")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.815 -0.48)
+		(end 0.815 0.48)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "efff60c4-aceb-4dcf-810b-8f3c335f4456")
+	)
+	(fp_line
+		(start -0.375 -0.33)
+		(end -0.375 0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f356d659-de2a-42a9-9962-c81032029108")
+	)
+	(fp_line
+		(start 0.375 -0.33)
+		(end 0.375 0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1110e539-77e7-4b3f-a97a-a273576209e2")
+	)
+	(fp_rect
+		(start -0.555 -0.33)
+		(end 0.555 0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "36959f6d-26bf-496a-a74a-414619b855a2")
+	)
+	(pad "1" smd rect
+		(at -0.485 0)
+		(size 0.36 0.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a71aadef-30e8-4869-89fd-1993b733c989")
+	)
+	(pad "2" smd rect
+		(at 0.485 0)
+		(size 0.36 0.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e53c46a-99ca-48ab-9b80-1b50425d00eb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/0402DC.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)

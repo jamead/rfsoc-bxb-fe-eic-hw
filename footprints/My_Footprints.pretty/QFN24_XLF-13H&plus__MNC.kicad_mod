@@ -1657,4 +1657,15 @@
 		(uuid "6383ebef-351f-4480-808c-7a113109ad79")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/MiniCircuits_XLF-172H+.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

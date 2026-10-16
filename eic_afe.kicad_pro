@@ -468,12 +468,11 @@
       "My_Footprints"
     ],
     "pinned_symbol_libs": [
-      "My_Symbols",
       "my-symbols"
     ]
   },
   "meta": {
-    "filename": "fpm_afe.kicad_pro",
+    "filename": "eic_afe.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -633,8 +632,28 @@
   },
   "sheets": [
     [
-      "87d67133-f485-4ab6-855f-1bc7a1c63eff",
+      "b2968a5f-c0a7-4c76-a952-ee50058f88fb",
       "Root"
+    ],
+    [
+      "dc67a7cd-da8f-468b-a6c2-c16f45d6d9cc",
+      "Channel A"
+    ],
+    [
+      "3faf4dcd-0ed9-4b90-9e8c-cba7d5671d7e",
+      "Channel B"
+    ],
+    [
+      "456616fa-53e7-451b-9509-a5cf4a5ce65c",
+      "Channel C"
+    ],
+    [
+      "0bda7a75-d257-40ba-b633-c6478c627a47",
+      "Channel D"
+    ],
+    [
+      "a54fc00f-fafd-4737-8233-9eaf2c6b1971",
+      "Regulators"
     ]
   ],
   "text_variables": {}
