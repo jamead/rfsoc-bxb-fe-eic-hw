@@ -700,7 +700,7 @@
 		(descr "Masach MS593-10F 59.3x20.6x3.0mm two-piece RF shield frame; mates MS593-10C cover. 59.0x20.3 mm solder land based on Masach drawing; includes lid 3D model.")
 		(tags "EMI RF shield removable lid MS593-10F MS593-10C")
 		(property "Reference" "SH2"
-			(at 0 -14.695642 90)
+			(at 27.616 -11.684 90)
 			(layer "F.SilkS")
 			(uuid "0e734615-366f-47b5-9f9e-9337f467d113")
 			(effects
@@ -10444,7 +10444,7 @@
 		(descr "Masach MS593-10F 59.3x20.6x3.0mm two-piece RF shield frame; mates MS593-10C cover. 59.0x20.3 mm solder land based on Masach drawing; includes lid 3D model.")
 		(tags "EMI RF shield removable lid MS593-10F MS593-10C")
 		(property "Reference" "SH3"
-			(at 0 -12.2 90)
+			(at 28.01 -11.811 90)
 			(layer "F.SilkS")
 			(uuid "56f77dc4-d453-4e56-a1bc-146d9bcf0404")
 			(effects
@@ -12283,7 +12283,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "1cf13e69-b440-48d5-be69-c4f77a976cd6")
+			(uuid "423437bd-fb73-4404-bc98-4d7b4bd8341f")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -2.54)
@@ -12294,7 +12294,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "1cf13e69-b440-48d5-be69-c4f77a976cd6")
+			(uuid "d015c12a-9192-4f15-a84f-389ca9e7c86e")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 2.54)
@@ -12305,7 +12305,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "1cf13e69-b440-48d5-be69-c4f77a976cd6")
+			(uuid "16871e70-7c4d-4e46-b43d-66c9ea07d2f1")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/132134.stp"
@@ -32297,7 +32297,7 @@
 		(descr "Masach MS593-10F 59.3x20.6x3.0mm two-piece RF shield frame; mates MS593-10C cover. 59.0x20.3 mm solder land based on Masach drawing; includes lid 3D model.")
 		(tags "EMI RF shield removable lid MS593-10F MS593-10C")
 		(property "Reference" "SH4"
-			(at 0 -12.2 90)
+			(at 28.01 -11.8 90)
 			(layer "F.SilkS")
 			(uuid "5329e566-fbaf-4579-ac3b-d32d7777f44e")
 			(effects
@@ -45531,7 +45531,7 @@
 		(descr "Masach MS593-10F 59.3x20.6x3.0mm two-piece RF shield frame; mates MS593-10C cover. 59.0x20.3 mm solder land based on Masach drawing; includes lid 3D model.")
 		(tags "EMI RF shield removable lid MS593-10F MS593-10C")
 		(property "Reference" "SH1"
-			(at 0 -12.2 90)
+			(at 28.01 -11.969254 90)
 			(layer "F.SilkS")
 			(uuid "5f085ca5-750f-4569-a7ff-4cb1d0aa9ce8")
 			(effects
