@@ -4075,7 +4075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Footprints:AMPHENOL_TMB-V5F2-3LC"
+		(property "Footprint" "My_Footprints:TMB-V5F2-3LC_PCBWay1_GCPW"
 			(at 0 0 0)
 			(effects
 				(font

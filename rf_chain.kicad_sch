@@ -5833,7 +5833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Footprints:MS593-10F"
+		(property "Footprint" "My_Footprints:MS593-10F_Two_Mouseholes_2x1mm"
 			(at 369.57 194.31 0)
 			(effects
 				(font

@@ -1421,7 +1421,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "My_Symbols:SMA-Straight-132134"
+		(symbol "My_Symbols:SMA-edge-132289"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1492,7 +1492,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMA-Straight-132134_0_1"
+			(symbol "SMA-edge-132289_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -1553,7 +1553,7 @@
 					)
 				)
 			)
-			(symbol "SMA-Straight-132134_1_1"
+			(symbol "SMA-edge-132289_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1764,6 +1764,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78feb6ed-4679-4e90-88c5-8d0c52c6fbee")
+	)
+	(junction
+		(at 114.3 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afd30585-064f-4419-ba2e-584e30dcfd81")
 	)
 	(junction
 		(at 46.99 205.74)
@@ -2111,6 +2117,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e207f55-3a08-4d8a-a2c4-db55482db6f4")
+	)
+	(wire
+		(pts
 			(xy 109.22 142.24) (xy 109.22 101.6)
 		)
 		(stroke
@@ -2128,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "866ebd0e-1b82-47f2-97c6-8fad4dbe7991")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89db5973-7eba-4862-a809-bf78ced2ca23")
 	)
 	(wire
 		(pts
@@ -2410,6 +2436,75 @@
 		(uuid "ff2868ce-4471-4903-a59b-112300a43b85")
 	)
 	(symbol
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 181.61 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "028d5cae-280e-4346-81bf-fa4b1bb40244")
+		(property "Reference" "J6"
+			(at 184.15 84.1131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "132289"
+			(at 184.15 86.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16b145d7-f1e2-4d0c-b036-1797eb683564")
+		)
+		(pin "1"
+			(uuid "67f16825-18ef-4517-8a68-cb1a6c55d055")
+		)
+		(instances
+			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 76.2 203.2 90)
 		(unit 1)
@@ -2676,7 +2771,77 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 95.25 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d0ab652-e436-4f0c-adde-7a258d5d0bc4")
+		(property "Reference" "J9"
+			(at 92.71 162.8531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "132289"
+			(at 92.71 165.3931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28fcdefd-594e-4f30-a6c6-31395e50046a")
+		)
+		(pin "1"
+			(uuid "d2c71cfd-63a6-4218-8eb0-7727d13ef01e")
+		)
+		(instances
+			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:SMA-edge-132289")
 		(at 95.25 85.09 0)
 		(mirror y)
 		(unit 1)
@@ -2684,7 +2849,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0fb84ce3-77d2-401b-88a8-2973813e7230")
+		(uuid "2e5e5a80-b615-4fb1-9d31-752d646e8100")
 		(property "Reference" "J5"
 			(at 92.71 84.1131 0)
 			(effects
@@ -2694,7 +2859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "132134"
+		(property "Value" "132289"
 			(at 92.71 86.6531 0)
 			(effects
 				(font
@@ -2703,7 +2868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -2730,156 +2895,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "929790b0-bb1d-4fb3-9779-4e6c100ef532")
-		)
 		(pin "2"
-			(uuid "acad7ec3-ac7e-4c4b-a457-4d08e2bab377")
+			(uuid "2ec44772-fd5a-406f-b5e0-2add5dde7757")
+		)
+		(pin "1"
+			(uuid "0fabc277-7c09-4c95-99b9-bdd202a20d0a")
 		)
 		(instances
 			(project "eic_afe"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 181.61 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13a37857-0383-4106-8928-762ff1081767")
-		(property "Reference" "J6"
-			(at 184.15 84.1131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "132134"
-			(at 184.15 86.6531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 181.61 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 181.61 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efe36687-a0e2-47db-9741-0f2d024cc427")
-		)
-		(pin "2"
-			(uuid "50392f11-798a-4679-8e20-658247bfc4a0")
-		)
-		(instances
-			(project "eic_afe"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 95.25 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25958999-5dd8-4408-a049-33b279137840")
-		(property "Reference" "J7"
-			(at 92.71 124.7531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "132134"
-			(at 92.71 127.2931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 95.25 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 95.25 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9651e84c-63fa-48d6-ada8-060776ba8f68")
-		)
-		(pin "2"
-			(uuid "126b1706-030d-467c-b3a3-f798be76932f")
-		)
-		(instances
-			(project "eic_afe"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3088,76 +3113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 95.25 163.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40a9c8f6-0d7b-40c6-a2ab-7b708961faed")
-		(property "Reference" "J9"
-			(at 92.71 162.8531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "132134"
-			(at 92.71 165.3931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 95.25 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 95.25 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd25b251-c0db-4887-96f5-73c2110ce7f4")
-		)
-		(pin "2"
-			(uuid "4541a317-e263-49dd-998b-5c7705e15b24")
-		)
-		(instances
-			(project "eic_afe"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 76.2 200.66 90)
 		(unit 1)
@@ -3287,76 +3242,6 @@
 			(project "eic_afe"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "MT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 181.61 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5230f15e-c578-45ad-b351-753b90e956b1")
-		(property "Reference" "J8"
-			(at 184.15 124.7531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "132134"
-			(at 184.15 127.2931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "926faf64-0532-4b31-95dc-a2af1f253892")
-		)
-		(pin "2"
-			(uuid "90e0b506-1a70-4de6-88dd-e5621e75ffc6")
-		)
-		(instances
-			(project "eic_afe"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3564,17 +3449,17 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 181.61 163.83 0)
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 95.25 45.72 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82186df1-5088-41d7-9025-0257864b83d3")
-		(property "Reference" "J10"
-			(at 184.15 162.8531 0)
+		(uuid "89eeb32e-6942-4898-87a0-8930348dccc7")
+		(property "Reference" "J3"
+			(at 92.71 44.7431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,8 +3467,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "132134"
-			(at 184.15 165.3931 0)
+		(property "Value" "132289"
+			(at 92.71 47.2831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,8 +3476,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 181.61 163.83 0)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 95.25 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 163.83 0)
+			(at 95.25 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3495,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 181.61 163.83 0)
+			(at 95.25 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,16 +3503,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c6444ae6-45cc-4bf5-86a6-7a319012b58d")
-		)
 		(pin "2"
-			(uuid "abd6ed88-a301-4720-9b92-7ce2a0f55be8")
+			(uuid "da45faa3-45ad-4910-a98c-e1a7d36e776b")
+		)
+		(pin "1"
+			(uuid "df3b82a7-3853-404b-a53b-67793409ecc0")
 		)
 		(instances
 			(project "eic_afe"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3701,6 +3586,75 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 181.61 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "921f799f-8348-43ad-ae68-972ba634b51b")
+		(property "Reference" "J8"
+			(at 184.15 124.7531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "132289"
+			(at 184.15 127.2931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9965cea5-6196-4f32-8b31-d92104c6ff36")
+		)
+		(pin "1"
+			(uuid "05bde23b-9569-4965-896a-a8c783ee0348")
+		)
+		(instances
+			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 356.87 215.9 0)
 		(unit 1)
@@ -3762,6 +3716,75 @@
 			(project "eic_afe"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 181.61 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93c89df2-7a1e-45c4-b059-243e1b82a2c0")
+		(property "Reference" "J10"
+			(at 184.15 162.8531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "132289"
+			(at 184.15 165.3931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 181.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 181.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cb26689-9261-4d86-885d-78de72cad9a3")
+		)
+		(pin "1"
+			(uuid "ea296171-34f1-4c13-a1ff-e341e4748f72")
+		)
+		(instances
+			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3969,76 +3992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 95.25 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc75bdbe-d638-4352-bb5b-aa1d990d0953")
-		(property "Reference" "J3"
-			(at 92.71 44.7431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "132134"
-			(at 92.71 47.2831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 95.25 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 95.25 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95bf486a-6cd6-49c0-9384-f7a4657d58ad")
-		)
-		(pin "2"
-			(uuid "906d6d1d-2f3e-471c-a192-78822ea7c8e5")
-		)
-		(instances
-			(project "eic_afe"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 336.55 210.82 0)
 		(unit 1)
@@ -4107,6 +4060,75 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 181.61 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c20a402b-0b56-44c3-89f4-28ca450d8075")
+		(property "Reference" "J4"
+			(at 184.15 44.7431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "132289"
+			(at 184.15 47.2831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50730f94-87a2-4534-8f65-9b112f62a58e")
+		)
+		(pin "1"
+			(uuid "611d9bf8-8dd5-451f-9cdc-aa1c6c39f50f")
+		)
+		(instances
+			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 171.45 0)
 		(unit 1)
@@ -4168,76 +4190,6 @@
 			(project "eic_afe"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:SMA-Straight-132134")
-		(at 181.61 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4dd00b6-645d-48a0-8b12-27a828a7e65e")
-		(property "Reference" "J4"
-			(at 184.15 44.7431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "132134"
-			(at 184.15 47.2831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "My_Footprints:SMA_Amphenol_132134_Vertical"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14c6b243-db3a-47e7-be38-2df7b6a88d83")
-		)
-		(pin "2"
-			(uuid "46715370-a6bf-4097-9cfd-8c4f5d7066f1")
-		)
-		(instances
-			(project "eic_afe"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4371,6 +4323,76 @@
 			(project "eic_afe"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:SMA-edge-132289")
+		(at 95.25 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5b100aa-261a-4af2-b7b2-09fdf7b73834")
+		(property "Reference" "J7"
+			(at 92.71 124.7531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "132289"
+			(at 92.71 127.2931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6da19377-e167-4d87-9510-95d870763fa8")
+		)
+		(pin "1"
+			(uuid "cdc6655e-0ade-4e2f-a289-4388d115ddb2")
+		)
+		(instances
+			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "J7")
 					(unit 1)
 				)
 			)
