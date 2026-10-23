@@ -5856,7 +5856,7 @@
 			)
 		)
 		(property "Value" "XLF-172H+"
-			(at 22.86 7.62 0)
+			(at 23.368 0.508 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5864,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" "My_Footprints:QFN24_XLF-13H&plus__MNC"
-			(at 0 0 0)
+			(at 8.128 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +5874,7 @@
 			)
 		)
 		(property "Datasheet" "XLF-13H+"
-			(at 0 0 0)
+			(at -7.366 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,24 +5911,6 @@
 			)
 		)
 		(symbol "XLF-172H+_0_1"
-			(pin power_out line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 0 -5.08 0)
 				(length 7.62)
@@ -5948,7 +5930,25 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -7.62 0)
+				(at 17.78 -41.91 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20.32 -41.91 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -5966,61 +5966,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 0 180)
-				(length 7.62)
-				(name "PADDLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 45.72 -20.32 180)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 45.72 -22.86 180)
-				(length 7.62)
-				(name "RF-OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 45.72 -25.4 180)
+				(at 22.86 -41.91 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -6037,10 +5983,64 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 25.4 -41.91 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 -41.91 90)
+				(length 7.62)
+				(name "PADDLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 45.72 -5.08 180)
+				(length 7.62)
+				(name "RF-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "XLF-172H+_1_1"
 			(rectangle
-				(start 8.255 4.445)
+				(start 7.62 -1.27)
 				(end 38.1 -34.29)
 				(stroke
 					(width 0)
@@ -6052,7 +6052,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 0 0)
+				(at 0 -11.43 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6070,7 +6070,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -10.16 0)
+				(at 0 -13.97 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6088,7 +6088,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -12.7 0)
+				(at 0 -16.51 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6106,7 +6106,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -15.24 0)
+				(at 0 -19.05 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6124,7 +6124,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -17.78 0)
+				(at 0 -21.59 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6142,7 +6142,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -20.32 0)
+				(at 0 -24.13 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6160,7 +6160,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -22.86 0)
+				(at 0 -26.67 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6178,7 +6178,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -25.4 0)
+				(at 0 -29.21 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6196,7 +6196,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -27.94 0)
+				(at 0 -31.75 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6214,7 +6214,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -2.54 180)
+				(at 45.72 -11.43 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6232,7 +6232,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -5.08 180)
+				(at 45.72 -13.97 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6250,7 +6250,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -7.62 180)
+				(at 45.72 -16.51 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6268,7 +6268,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -10.16 180)
+				(at 45.72 -19.05 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6286,7 +6286,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -12.7 180)
+				(at 45.72 -21.59 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6304,7 +6304,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -15.24 180)
+				(at 45.72 -24.13 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6322,7 +6322,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -17.78 180)
+				(at 45.72 -26.67 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6340,7 +6340,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -27.94 180)
+				(at 45.72 -29.21 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -6358,7 +6358,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -30.48 180)
+				(at 45.72 -31.75 180)
 				(length 7.62)
 				(name "NC"
 					(effects
