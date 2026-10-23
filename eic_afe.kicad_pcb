@@ -16948,7 +16948,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "3f566800-2135-416b-8c9e-c1539b0a5115")
+			(uuid "98945b21-a87f-4d4f-8d62-d39d8a6ae4cf")
 		)
 		(pad "1" smd rect
 			(at 0 -9.4 90)
@@ -16957,7 +16957,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "3f566800-2135-416b-8c9e-c1539b0a5115")
+			(uuid "e053f99c-969f-4324-a3ed-3d159c42ace9")
 		)
 		(pad "1" smd rect
 			(at 0 9.4 90)
@@ -16966,7 +16966,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "3f566800-2135-416b-8c9e-c1539b0a5115")
+			(uuid "36e91048-764d-448f-ab1e-0df87e1a5f29")
 		)
 		(pad "1" smd rect
 			(at 28.75 -4.825 90)
@@ -16975,7 +16975,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "3f566800-2135-416b-8c9e-c1539b0a5115")
+			(uuid "21866548-d94d-4c37-98e5-25831ba6ac73")
 		)
 		(pad "1" smd rect
 			(at 28.75 4.825 90)
@@ -16984,7 +16984,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "3f566800-2135-416b-8c9e-c1539b0a5115")
+			(uuid "a0c90c62-1c99-4a17-bf15-a21b1fc5f88a")
 		)
 		(embedded_fonts no)
 	)
