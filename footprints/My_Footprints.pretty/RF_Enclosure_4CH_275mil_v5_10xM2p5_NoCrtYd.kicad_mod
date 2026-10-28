@@ -1,0 +1,323 @@
+(footprint "RF_Enclosure_4CH_275mil_v5_10xM2p5_NoCrtYd"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "4ch CNC RF enclosure 275mil tall, 3mm outside side walls, 10 blind M2.5 taps from PCB-side; footprint includes 10 NPTH 2.8mm screw clearances")
+	(tags "RF enclosure cover 4channel M2.5 275mil")
+	(property "Reference" "SH**"
+		(at 0 -37.005 0)
+		(layer "F.SilkS")
+		(uuid "6c52c14c-8348-4f4a-8ca5-0571028b1fd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RF_Enclosure_4CH_Rev5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b75f6f93-ad4c-4f90-8c04-f99cc93a5a07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fafcb93-1f03-487a-bcc7-fa619a0c7d12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ffda18b-c83f-47c0-9d66-f99eddade730")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -38.27 -35.305)
+		(end 38.27 35.305)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a2fd1fc1-1e53-4710-af06-a91d88177192")
+	)
+	(fp_rect
+		(start -35.27 -27.305)
+		(end -18.76 27.305)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97f095ab-0af1-49ed-b67c-5518f34781fd")
+	)
+	(fp_rect
+		(start -28.615 -35.305)
+		(end -25.415 -27.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7daa6c8d-2ba3-460d-9630-9cce5632acc1")
+	)
+	(fp_rect
+		(start -28.615 27.305)
+		(end -25.415 35.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1de7ab9a-66c6-476d-80a8-2ee868708947")
+	)
+	(fp_rect
+		(start -17.26 -27.305)
+		(end -0.75 27.305)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c40184a-110a-444c-9f87-c798877fb265")
+	)
+	(fp_rect
+		(start -10.605 -35.305)
+		(end -7.405 -27.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "66ff50f8-93d1-4b7d-a3a4-2f97aa99895c")
+	)
+	(fp_rect
+		(start -10.605 27.305)
+		(end -7.405 35.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9bce19fc-ad3d-4d70-b818-accd59e4c645")
+	)
+	(fp_rect
+		(start 0.75 -27.305)
+		(end 17.26 27.305)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "66c7007d-9465-44c6-9d7f-9995e2aaecb8")
+	)
+	(fp_rect
+		(start 7.405 -35.305)
+		(end 10.605 -27.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "041e2386-bf72-4bf5-aef0-80a751e8d770")
+	)
+	(fp_rect
+		(start 7.405 27.305)
+		(end 10.605 35.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "45113138-fab8-4023-954a-a4cfb6250341")
+	)
+	(fp_rect
+		(start 18.76 -27.305)
+		(end 35.27 27.305)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb5cea2b-953e-403d-81db-999d6967c4b1")
+	)
+	(fp_rect
+		(start 25.415 -35.305)
+		(end 28.615 -27.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "82889a26-e5ad-4b5e-b626-712bcb7c186b")
+	)
+	(fp_rect
+		(start 25.415 27.305)
+		(end 28.615 35.305)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ce1791b-10e6-43ce-ac39-bdaf3fe125e1")
+	)
+	(fp_text user "CH1"
+		(at -27.015 0 0)
+		(layer "Dwgs.User")
+		(uuid "5bdad0f2-1726-4da9-8fdc-13661042aa38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CH2"
+		(at -9.005 0 0)
+		(layer "Dwgs.User")
+		(uuid "fd3a5c6b-8e0b-41a9-bb23-b66cd11123c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CH3"
+		(at 9.005 0 0)
+		(layer "Dwgs.User")
+		(uuid "50ca0d0b-0707-4150-af22-2f53a814daff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CH4"
+		(at 27.015 0 0)
+		(layer "Dwgs.User")
+		(uuid "7d4fbe68-03fd-4033-bee8-aa916826f145")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -32.77 -31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c1f01049-c6de-4bd7-bee8-cc7ee77a3700")
+	)
+	(pad "" np_thru_hole circle
+		(at -32.77 31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "97ae02ef-a51b-4de3-ac98-e859e529524e")
+	)
+	(pad "" np_thru_hole circle
+		(at -18.01 -31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "348e4ebe-af16-49ef-b72f-dd9496777389")
+	)
+	(pad "" np_thru_hole circle
+		(at -18.01 31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4b14599b-a5ca-4ad7-ad07-d037eeea50b3")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cdeedc2e-2ffe-447a-be8b-5f922bc9f8a2")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "32971b15-0e08-49e7-8e28-d715c4c29791")
+	)
+	(pad "" np_thru_hole circle
+		(at 18.01 -31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f7d59793-eab8-43e4-ad10-09e617ecd5f0")
+	)
+	(pad "" np_thru_hole circle
+		(at 18.01 31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9e296cb5-34c3-4e87-9a03-d96be3040538")
+	)
+	(pad "" np_thru_hole circle
+		(at 32.77 -31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2fefb529-75ff-4e4a-9ac3-f2644a289206")
+	)
+	(pad "" np_thru_hole circle
+		(at 32.77 31.305)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a091f38a-1f05-4762-93e3-214e831a3553")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/RF_Enclosure_4CH_275mil_v5_10hole.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
