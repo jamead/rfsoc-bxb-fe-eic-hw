@@ -6953,7 +6953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "My_Footprints:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 238.76 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7048,6 +7048,10 @@
 		)
 		(instances
 			(project "eic_afe"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "U11")
+					(unit 1)
+				)
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/0ef5e11e-7d71-4304-a6ac-3cd65ff206eb"
 					(reference "U23")
 					(unit 1)
@@ -10360,7 +10364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "My_Footprints:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 341.63 106.68 0)
 			(hide yes)
 			(show_name no)

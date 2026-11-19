@@ -10,10 +10,10 @@ Four-channel analog RF front-end (AFE) board for bunch-by-bunch (BxB) signal acq
 | Drawing number | To be assigned |
 | Revision | To be assigned |
 | README updated | October 16, 2026 |
-| Design software | KiCad 9 (schematic export: 9.0.9) |
-| PCB | Six layers, 1.6 mm nominal thickness **planned**; confirm in fabrication release |
+| Design software | KiCad 10 (schematic export: 10.0.6) |
+| PCB | Six layers, 1.6 mm nominal thickness 1.2mm; confirm in fabrication release |
 | RF channels | Four independent, nominally identical channels (A, B, C, D) |
-| RF connectors | Amphenol RF 132134, 50-ohm straight through-hole SMA |
+| RF connectors | Amphenol RF 132289, 50-ohm edge mount SMA |
 
 ## Overview
 
@@ -37,6 +37,9 @@ RCAT-01+ fixed 1 dB attenuator
 XLF-172H+ input low-pass filter
     |
     v
+RCAT-01+ fixed 1 dB attenuator
+    |
+    v    
 AC coupling
     |
     v
@@ -65,14 +68,6 @@ The PE43712B-Z is placed **between the two amplifiers**, allowing the signal lev
 
 The schematic uses AC-coupling capacitors between the XLF-172H+ and the discrete Gaussian network, at the amplifier and attenuator interfaces, and at the RF output. No separate output low-pass filter is shown after the second amplifier.
 
-### Channel and component map
-
-| Channel | RF input | Fixed attenuator | XLF filter | First amplifier | Digital attenuator | Second amplifier | RF output | Shield |
-|---|---|---|---|---|---|---|---|---|
-| A | J3 | U8 | U4 | U6 | U2 | U3 | J4 | SH1 |
-| B | J5 | U5 | U7 | U9 | U10 | U11 | J6 | SH2 |
-| C | J7 | U12 | U13 | U14 | U15 | U16 | J8 | SH3 |
-| D | J9 | U17 | U18 | U19 | U20 | U21 | J10 | SH4 |
 
 **Major RF parts per channel**
 
@@ -98,7 +93,7 @@ Each channel includes a 10-kohm pull-up on its attenuator `*P/S` pin, consistent
 
 ## Power supply
 
-External **+5 V DC** enters at **J1 (39301022)** and feeds **U1 (TPS7A4700xRGW)**, a low-noise linear regulator configured in the schematic for the **+3.3 V** RF supply.
+External **+5 V DC** enters at **J1 (39301022)** or J2 and feeds **U1 (TPS7A4700xRGW)**, a low-noise linear regulator configured in the schematic for the **+3.3 V** RF supply.
 
 The regulator circuit includes input capacitors **C16 (10 µF)** and **C17 (1 µF)**; output capacitors **C12–C14 (10 µF, 10 µF, and 47 µF)**; and **C18 (1 µF)** on the NR pin. The +3.3 V rail powers the two TRF37D73 amplifiers and the PE43712B-Z attenuator in each channel.
 
@@ -119,7 +114,7 @@ Four grounded mounting holes (**MT1–MT4**) are also shown on the root schemati
 
 ## RF shielding and PCB construction
 
-Each RF channel includes a separate **two-piece RF shield** symbol (**SH1–SH4**) with a solderable frame and removable cover. The final shield part number, usable *interior* dimensions, solder-land pattern, lid clearance, and enclosure compatibility must be verified against the PCB layout. The selected shield must clear all RF components and must not short signal traces crossing the frame boundary.
+A custom-machined aluminum RF shielding enclosure was designed for the four-channel RF analog front-end PCB. The enclosure provides individual shielding compartments for each RF signal chain, reducing electromagnetic interference (EMI) and unwanted coupling between channels.
 
 A **six-layer, 1.6 mm** PCB is planned, but the attached document is a schematic export and does not define a released PCB stackup or layout. The following are **design targets**, not verified fabrication facts:
 
